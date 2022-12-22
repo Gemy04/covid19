@@ -1129,6 +1129,7 @@ footer .last .ftwo {
 @media screen and (max-width: 768px) {
     .container0 {
         background-color: white;
+        padding: 0;
     }
 
     .navbar {
@@ -1182,6 +1183,24 @@ footer .last .ftwo {
     header .img {
         width: 100%;
     }
+
+    header .headData .multi {
+        margin: 0;
+        font-size: large;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .api-numbers{
+        margin: 0;
+        font-size: large;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    
+   
 
 
     .sec11 .kolo {
