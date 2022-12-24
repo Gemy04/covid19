@@ -1232,8 +1232,13 @@ footer .last .ftwo {
         border-bottom: #4267B2 3px solid;
     }
     
-   
 
+    .sec11{
+        width: 90%;
+        margin: auto;
+
+
+    }
 
     .sec11 .kolo {
         flex-direction: column;
@@ -1244,7 +1249,15 @@ footer .last .ftwo {
     .sec11 .kolo .lista {
         width: 100%;
         margin: 0;
-        /* text-align: center; */
+        text-align: center;
+    }
+    .sec11 .kolo .lista li {
+        padding: 2vh;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 2vh;
+        width: auto;
+    
     }
 
 
