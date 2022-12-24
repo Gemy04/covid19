@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 :root {
     --myblue: rgb(5, 108, 196);
@@ -138,21 +141,23 @@ header .headData .sbtn {
 header .api-numbers .one {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    text-align: center;
 
 }
 
 header .api-numbers .two {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    text-align: center;
+
 
 }
 
 header .api-numbers .three {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    text-align: center;
+
 
 }
 
@@ -1130,29 +1135,37 @@ footer .last .ftwo {
     .container0 {
         background-color: white;
         padding: 0;
+
     }
 
     .navbar {
         flex-wrap: wrap;
+        margin: 0;
+        justify-content: space-around;
+        width: 100%;
+        height: 10vh;
+        /* text-align: center; */
+        align-items: center;
     }
 
     .navbar .logo {
-        width: 50%;
+        width: 45%;
+        
     }
 
     .links {
-
         display: none;
         flex-direction: column;
-        margin-top: 5vh;
+        /* margin-top: 5vh; */
         width: 100%;
-
+        background-color: white;
     }
 
     .burger {
         display: block;
-        width: 50%;
+        width: 45%;
         text-align: end;
+
     }
 
     header {
@@ -1176,9 +1189,14 @@ footer .last .ftwo {
     header .headData .fbtn {
         width: 100%;
         margin: 5vh 0 5vh 0;
-
-
     }
+    header .headData .sbtn {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 3vh ;
+    }
+
+    
 
     header .img {
         width: 100%;
@@ -1198,6 +1216,20 @@ footer .last .ftwo {
         text-align: center;
         width: 100%;
         justify-content: center;
+        flex-direction: column;
+    }
+    header .api-numbers .one {
+        margin-bottom: 3vh;
+    }
+    
+    header .api-numbers .two {
+        margin-bottom: 3vh;
+
+    }
+    
+    header .api-numbers .three {
+        padding-bottom: 3vh;
+        border-bottom: #4267B2 3px solid;
     }
     
    
@@ -1286,6 +1318,18 @@ footer .last .ftwo {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .sec4 .btnblue div{
+        margin: 1vh;
+        width: 90%;
+
+    }
+    .sec4 .btnblue div p{
+        line-height: 4vh;
+        margin-bottom: 2vh;
+
     }
 
     .sec4 .btnblue button {

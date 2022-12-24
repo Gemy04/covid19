@@ -4,7 +4,6 @@ burger.addEventListener('click', () => {
   links.classList.toggle('active');
 });
 
-
 const items = document.querySelectorAll("[id^=list-item]");
 const contents = document.querySelectorAll("[class^=fresh]");
 items.forEach((item, i) => {
@@ -18,7 +17,6 @@ items.forEach((item, i) => {
     item.classList.add('clicked');
   });
 });
-
 
 const expandables = document.querySelectorAll(".expandable");
 expandables.forEach((expandable) => {
@@ -66,23 +64,12 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $('.links a').click(function (event) {
-    event.preventDefault();
-    const target = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: $(target).offset().top
-    }, 1000);
-  });
-});
-
-
-$(document).ready(function () {
   var one = $('div.one span');
   var two = $('div.two span');
   var three = $('div.three span');
 
   one.animate({ count: 659930840 }, {
-    duration: 2000,
+    duration: 1500,
     easing: 'swing',
     step: function () {
       one.text(Math.ceil(this.count));
@@ -90,7 +77,7 @@ $(document).ready(function () {
   });
 
   two.animate({ count: 6679325 }, {
-    duration: 2000,
+    duration: 1500,
     easing: 'swing',
     step: function () {
       two.text(Math.ceil(this.count));
@@ -98,7 +85,7 @@ $(document).ready(function () {
   });
 
   three.animate({ count: 632809444 }, {
-    duration: 2000,
+    duration: 1500,
     easing: 'swing',
     step: function () {
       three.text(Math.ceil(this.count));
