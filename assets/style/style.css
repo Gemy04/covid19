@@ -1243,13 +1243,10 @@ footer .last .ftwo {
 
     .sec11 .kolo .lista {
         width: 100%;
-        margin: auto;
-        text-align: center;
+        margin: 0;
+        /* text-align: center; */
     }
 
-    .sec11 .kolo .lista li {
-        margin: 2vh 0 2vh 0;
-    }
 
     .sec11 .kolo .big {
         width: 100%;
@@ -1285,6 +1282,7 @@ footer .last .ftwo {
 
     .sec3 .kalam {
         width: 80%;
+        text-align: center;
     }
 
     .sec3 .threepics {
@@ -1303,6 +1301,7 @@ footer .last .ftwo {
 
     .sec4 .kalam {
         width: 90%;
+        text-align: center;
     }
 
     .sec4 .threepics {
@@ -1370,11 +1369,13 @@ footer .last .ftwo {
     .sec6 .para {
         width: 90%;
         margin: auto;
+        text-align: center;
     }
 
 
     .sec7 .image-container div {
-        width: 30%;
+        width: 45%;
+        margin-bottom: 2vh;
     }
 
     .sec8img .sec8 {
