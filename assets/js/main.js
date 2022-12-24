@@ -3,6 +3,9 @@ const links = document.querySelector('.links');
 burger.addEventListener('click', () => {
   links.classList.toggle('active');
 });
+links.addEventListener('click', () => {
+  links.classList.remove('active');
+})
 
 const items = document.querySelectorAll("[id^=list-item]");
 const contents = document.querySelectorAll("[class^=fresh]");
